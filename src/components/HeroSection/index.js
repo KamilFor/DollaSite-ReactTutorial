@@ -11,6 +11,7 @@ import {
 	ArrowForward,
 	ArrowRight
 } from './HeroElements';
+import { Button } from '../ButtonElements';
 
 const HeroSection = () => {
 	const [hover, setHover] = useState(false);
@@ -28,7 +29,7 @@ const HeroSection = () => {
 				<HeroH1>Virtual Banking Made Eazy</HeroH1>
 				<HeroP>Sign up for a new account today and recive $250 in credit towards your next payment.</HeroP>
 				<HeroBtnWrapper>
-					<Button onMouseEnter={onHover} onMouseLeave={onHover} to="signup">
+					<Button onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true" to="signup">
 						Get Started {hover ? <ArrowForward /> : <ArrowRight />}
 					</Button>
 				</HeroBtnWrapper>
