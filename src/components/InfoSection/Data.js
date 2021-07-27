@@ -23,3 +23,40 @@ export const homeObjOne = {
 	darkText: false,
 	darkText2: false,
 };
+export const homeObjTwo = {
+	id: 'Discover',
+	lightBg: true,
+	lightText: false,
+	lightTextDesc: false,
+	topLine: 'Unlimited Access',
+	headline: 'Unlimited Transactions with zero fees',
+	description:
+		'Get access to our exlusive app that allows you to send unlimited transactions without getting charged anyfees.',
+	buttonLabel: 'Learn More',
+	imgStart: true,
+	img: svg2,
+	alt: 'Piggybank',
+	dark: false,
+	primary: false,
+	darkText: true,
+	darkText2: false,
+};
+
+export const homeObjThree = {
+	id: 'about',
+	lightBg: true,
+	lightText: false,
+	lightTextDesc: false,
+	topLine: 'PremiumBank',
+	headline: 'Unlimited Transactions with zero fees',
+	description:
+		'Get access to our exlusive app that allows you to send unlimited transactions without getting charged anyfees.',
+	buttonLabel: 'Start Now',
+	imgStart: false,
+	img: svg3,
+	alt: 'Papers',
+	dark: false,
+	primary: false,
+	darkText: true,
+	darkText2: false,
+};
